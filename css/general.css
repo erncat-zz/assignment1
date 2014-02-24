@@ -118,9 +118,13 @@ ul {
 }
 
 footer {
-    margin: 1.5rem 0 2rem;
+    margin: 1.5rem 5% 2rem;
     background-color: turquoise;
     overflow: hidden;
+}
+
+footer p {
+    margin: 1rem 5% 1rem;
 }
     
 hr {
