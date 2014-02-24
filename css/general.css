@@ -21,6 +21,18 @@ body {
     padding: 0;
 }
 
+.masthead {
+    background-color: turquoise;
+    overflow: hidden;
+}
+
+.logo {
+    height: 1.8rem;
+    width: auto;
+    margin: .5rem 5%;
+    float: right;
+}
+
 .billboard {
     margin: 10 5% 2rem;
     overflow: hidden;
