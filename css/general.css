@@ -35,9 +35,9 @@ body {
 .billboard {
     margin: 1.5rem 5% 2rem;
     overflow: hidden;
-    background-image: url(../images/mastead-cookie.png);
+    background-image: url(../images/mastead-cookie.svg);
     background-repeat: repeat;
-    background-size: 35rem;
+    background-size: 5rem;
     background-position: center center;
     box-shadow: .2rem .2rem .2rem .2rem rgba(0, 0, 0, .4);
     border: solid .35rem rgba(255, 250, 205, .8);
