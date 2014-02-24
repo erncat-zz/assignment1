@@ -22,15 +22,14 @@ body {
 }
 
 .cookie1 {
-    margin: 10 5% 3rem;
+    margin: 10 5% 2rem;
     overflow: hidden;
     background-image: url(../images/mastead-cookie.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 35rem;
     background-position: center center;
     box-shadow: .2rem .2rem .2rem .2rem rgba(0, 0, 0, .4);
-    border: solid .35rem rgba(255, 255, 255, 1);
-    border-radius: 1.25rem;
+    border: solid .35rem rgba(255, 250, 205, .8);
 }
 
 article {
@@ -41,12 +40,13 @@ article {
 
 h1 {
     font-family: Helvetica, Arial, Sans-Serif;
-    font-weight: normal;
+    font-weight: strong;
     font-size: 1.5rem;
     text-align: center;
     text-transform: uppercase;
     line-height: 1.5rem;
-    background-color: rgba(255, 255, 255, .7);
+    color: hotpink;
+    background-color: rgba(255, 250, 205, .8);
     margin: 3rem 0;
     padding: .25rem 0;
 }
@@ -56,14 +56,47 @@ h2 {
     font-weight: 300;
     line-height: 1.5rem;
     font-size: 1.25rem;
-    margin: 1.5rem 0;
+    margin: 1rem 5% 0;
+    color: turquoise;
+}
+
+details p {
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-weight: 1rem;
+    line-height: 1.5rem
 }
     
 .dropcap:first-letter {
     font-size: 2.6rem;
     font-weight: 400;
     float: left;
-    margin: -.5rem .2rem 2rem 0;
+    margin: -.5rem .2rem -1rem 0;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+figure {
+    margin: 0 auto 1.5rem;
+    width: 90%;
+}
+
+figcaption {
+    font-size: .75rem;
+    padding: .25rem 5% 0;
+    text-align: center;
+    color: hotpink;
+}
+
+strong {
+    font-weight: bold;
+    color: turquoise;
+}
+
+span {
+    color: hotpink;
 }
 
 details {
@@ -77,6 +110,22 @@ ul {
     font-size: 1rem;
     line-height:1.25rem;
 }
+
+footer {
+    margin: 10 0 2rem;
+    background-color: turquoise;
+    overflow: hidden;
+}
+    
+hr {
+    border: dashed 2px hotpink;
+}
+
+.directions {
+    font-size: 1.5rem;
+}
+    
+    
 
 
     
