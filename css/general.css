@@ -34,7 +34,7 @@ body {
 }
 
 .billboard {
-    margin: 10 5% 2rem;
+    margin: 1.5rem 5% 2rem;
     overflow: hidden;
     background-image: url(../images/mastead-cookie.png);
     background-repeat: repeat;
@@ -52,7 +52,7 @@ article {
 
 h1 {
     font-family: Helvetica, Arial, Sans-Serif;
-    font-weight: strong;
+    font-weight: bold;
     font-size: 1.5rem;
     text-align: center;
     text-transform: uppercase;
@@ -72,11 +72,6 @@ h2 {
     color: turquoise;
 }
 
-details p {
-    font-family: Helvetica, Arial, Sans-Serif;
-    font-weight: 1rem;
-    line-height: 1.5rem
-}
     
 .dropcap:first-letter {
     font-size: 2.6rem;
@@ -124,7 +119,7 @@ ul {
 }
 
 footer {
-    margin: 10 0 2rem;
+    margin: 1.5rem 0 2rem;
     background-color: turquoise;
     overflow: hidden;
 }
